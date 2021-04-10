@@ -9,7 +9,7 @@ public class Main {
 
         Hero[] hero = {magic, medic, warrior};
         for (int i = 0; i < hero.length; i++) {
-            hero[i].applySuperAbility("Вызов");
+            hero[i].applySuperAbility("");
         }
         
     }
