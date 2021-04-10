@@ -1,9 +1,9 @@
 package com.company;
 
-public abstract class Hero implements HavingSuperAbility{
-    int health;
-    int damage;
-    String ability;
+public abstract class Hero implements HavingSuperAbility {
+    private int health;
+    private int damage;
+    private String ability;
 
     public int getHealth() {
         return health;

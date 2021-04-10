@@ -4,7 +4,7 @@ public class Warrior extends Hero{
 
     @Override
     public void applySuperAbility(String superAbilityType) {
-        superAbilityType = "Warrior применил суперспособность CRITICAL DAMAGE";
-        System.out.println(superAbilityType);
+        setAbility( "Warrior применил суперспособность CRITICAL DAMAGE");
+        System.out.println(getAbility());
     }
 }
